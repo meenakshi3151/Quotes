@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("city.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+h3 {
+    text-align: center;
+    color: black;
+
+}
+
+.page {
+ background-color:rgb(255, 255, 255); 
+    box-shadow: 5px 5px 5px 5px;
+    display: flex;
+    flex-direction: column; /* Added to stack children vertically */
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    width: 40%;
+    
+    height: 35vh;
+    color: whitesmoke;
+
+    border-radius: 20px;
+    margin: auto; /* Center the box horizontally */
+    margin-top: 20vh; /* Add some space from the top */
+}
+
+.btn {
+    margin-top: 20px;
+    transition: transform 0.2s ease;
+}
+
+button#give {
+    padding: 10px;
+    border-radius: 25px;
+font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+button#give:hover{
+    background-color: rgb(10, 206, 206);
+    transform: scale(1.1); 
+    
+}
